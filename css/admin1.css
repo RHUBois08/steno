@@ -1,0 +1,116 @@
+body{
+    background-color: rgba(66, 104, 160, 0.89);
+    position: relative;
+    overflow: hidden;
+    display: flow-root;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 1350px;
+    height: 750px;
+    background: #aa602e00;
+    position:relative;
+    border-radius: 10px;
+    justify-content: center;
+
+}
+.container h1 {
+    margin: 0;
+    padding:0;
+    font-size: 100px;
+    color: #131212d5;
+    text-transform: uppercase;
+    text-align: center;
+    position:absolute;
+    top: 50%;
+    transform: translateY(-170%);
+    font-family: "Libre Barcode 128 Text", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.container form button{
+    margin-top: -1.1.5%;
+    position: absolute;
+    transform: translateX(-50%);
+    align-items: center;
+    background-color: #ffffffb0;
+    height: 35px;
+    width: 150px;
+    border-radius: 5px;
+    border-color: #000000ce;
+    color: black;
+    font-size: 17px;
+}
+.merriweather-light {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+.merriweather-regular {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .merriweather-bold {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .merriweather-black {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .merriweather-light-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .merriweather-regular-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .merriweather-bold-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .merriweather-black-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+p{
+    text-align: justify;
+    font-size: 3vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #BB9457;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    opacity:0.7;
+    font-weight: bold;
+}
+.img6{
+    width: 100%;
+}
+div{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    position: fixed;
+}
+
+
+  

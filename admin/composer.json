@@ -1,0 +1,7 @@
+{
+    "require": {
+        "kreait/firebase-php": "^5.26",
+        "grpc/grpc": "^1.57",
+        "google/apiclient": "^2.18"
+    }
+}

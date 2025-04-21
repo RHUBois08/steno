@@ -1,0 +1,44 @@
+body{
+    background-color: rgba(66, 104, 160, 0.89);
+    position: relative;
+    overflow: hidden;
+    display: flow-root;
+    justify-content: center;
+    align-items:center
+}
+.container{
+    width: 250px;
+    height: 150px;
+    margin: 100px auto;
+    background: #f0ebeb;
+    position:relative;
+    border-radius: 10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 225px;
+}
+
+.container form button{
+    margin-top: 10%;
+    position: absolute;
+    transform: translateX(-160%);
+    align-items: center;
+    background-color: #9287875e;
+    height: 25px;
+    width: 85px;
+    border-radius: 5px;
+    border-color: #000000ce;
+    color: black;
+    font-size: 15px;
+}
+
+.float-img6{
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+
+
+  

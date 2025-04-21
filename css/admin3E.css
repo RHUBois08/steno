@@ -1,0 +1,75 @@
+body{
+    background-color: rgba(66, 104, 160, 0.89);
+    position: relative;
+    overflow: hidden;
+    display: flow-root;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 450px;
+    height: 400px;
+    margin: 100px auto;
+    background: #aa602e6b;
+    position:relative;
+    border-radius: 10px;
+    display:flex;
+    justify-content: center;
+}
+.container h1 {
+    margin: 0;
+    padding:0;
+    font-size: 70px;
+    color: #ffffff8c;
+    text-transform: uppercase;
+    text-align: center;
+    position:absolute;
+    top: 20%;
+    transform: translateY(-50%);
+    font-family: "Libre Barcode 128 Text", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    background-color: rgba(128, 128, 128, 0.418);
+    width: 400px;
+    border-radius: 10px;
+}
+.container button{
+    color: rgba(240, 248, 255, 0.616);
+    position: absolute ;
+    background-color: rgba(127, 255, 212, 0);
+    border-color: #bb955700;
+    font-size: 50px;
+    margin-top: -210px;
+    margin-left: 180px;
+}
+.container form input{
+    position: absolute;
+    bottom: 92%;
+    width: 390px;
+    height:30px;
+    border-radius: 10px;
+}
+p{
+    text-align: justify;
+    font-size: 3vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #BB9457;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    opacity:0.7;
+    font-weight: bold;
+}
+.img6{
+    width: 100%;
+}
+div{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    position: fixed;
+}
+
+
+  

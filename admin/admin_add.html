@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image in Container</title>
+    <style>
+        .container {
+            width: 300px; /* Or any desired width */
+            height: 200px; /* Or any desired height */
+            border: 1px solid #ccc; /* Optional border for visualization */
+            overflow: hidden; /* Important for controlling image overflow */
+            position: relative; /* For absolute positioning of the image if needed */
+        }
+
+        .container img {
+            width: 100%; /* Makes the image responsive within the container */
+            height: auto; /* Maintains aspect ratio */
+            display: block; /* Prevents a small space below the image */
+            object-fit: cover; /* or contain, depending on how you want to scale */
+            position: absolute; /* if you want to position the image absolutely */
+            top: 0;
+            left: 0;
+        }
+
+        /* Example of different object-fit values */
+        .contain-example img {
+            object-fit: contain; /* Image will scale to fit within the container, may leave blank space */
+        }
+
+        .cover-example img {
+            object-fit: cover; /* Image will cover the entire container, may be cropped */
+        }
+
+        .fill-example img {
+          object-fit: fill; /* This is the default, stretches the image to fill the container, may distort */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="../admin/IMG/trans.png" alt="Description of the image">
+    </div>
+
+    <div class="container contain-example">
+        <img src="" alt="Description of the image (Contain)">
+    </div>
+
+    <div class="container cover-example">
+        <img src="path/to/your/image.jpg" alt="Description of the image (Cover)">
+    </div>
+
+    <div class="container fill-example">
+      <img src="path/to/your/image.jpg" alt="Description of the image (Fill)">
+  </div>
+
+</body>
+</html>
